@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renz Martin V. Rebogio - Resume</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            text-align: justify;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #2c3e50;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        
+        .contact-info {
+            font-size: 1.1em;
+            margin: 15px 0;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .education-item, .project-item {
+            margin-bottom: 20px;
+        }
+        
+        .project-title, .education-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+        
+        .project-name {
+            font-style: italic;
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+        
+        .project-year {
+            font-weight: bold;
+            color: #000;
+            font-size: 1em;
+        }
+        
+        .project-tech {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        .education-school {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        
+        .education-year {
+            font-style: italic;
+            color: black;
+            font-size: 0.95em;
+        }
+        
+        .certificate-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+        
+        .certificate-name {
+            flex: 1;
+        }
+        
+        .certificate-year {
+            font-weight: bold;
+            color: #000;
+            font-size: 1em;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .skills-category {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .skills-category h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .skills-section {
+                flex-direction: column;
+            }
+            
+            .skills-category {
+                min-width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="1x1.png" alt="Renz Martin V. Rebogio" class="profile-img">
+        <h1>Renz Martin V. Rebogio</h1>
+        <div class="contact-info">
+            Cavite City, Cavite | 09914985418 | 
+            <a href="mailto:renzmartinrebogio@gmail.com">renzmartinrebogio@gmail.com</a> | 
+            <a href="http://www.linkedin.com/in/renz-martin-rebogio-3916ab364" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROFILE</h2>
+        <p>I am a Computer Engineering student and aspiring web developer with a passion for building responsive, user-friendly interfaces. Skilled in HTML, CSS, JavaScript, and React, I focus on creating accessible digital experiences. With hands-on experience in both frontend and backend technologies, I thrive in collaborative environments and enjoy working on projects that make a real-world impact.</p>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <div class="education-item">
+            <div class="education-header">
+                <div class="education-title">Bachelor of Science in Computer Engineering</div>
+                <div class="education-year"><strong>(Expected Graduation: 2026)</strong></div>
+            </div>
+            <div class="education-school"><em>San Sebastian College -- Recoletos de Cavite</em></div>
+            <div><em>Dean's Lister</em></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>SKILLS</h2>
+        <div class="skills-section">
+            <div class="skills-category">
+                <h3>Soft Skills:</h3>
+                <ul>
+                    <li>Problem Solving and Analytical Skills</li>
+                    <li>Team Collaboration and Communication</li>
+                    <li>Adaptability and eagerness to learn</li>
+                    <li>Time management and organization</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Technical Skills:</h3>
+                <ul>
+                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React, Angular</li>
+                    <li><strong>Backend:</strong> Java, Python, SQL, Firebase, C++</li>
+                    <li><strong>Mobile Development:</strong> Flutter (Dart)</li>
+                    <li><strong>DevOps:</strong> Git, Github</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS</h2>
+        
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-name"><em><strong>Mobile Fitness Application</strong></em> <span class="project-tech"><em>(Flutter and Dart)</em></span></div>
+                <div class="project-year"><strong>2024</strong></div>
+            </div>
+            <ul>
+                <li>Led a 4-member team as the primary full-stack developer, planning the comprehensive tech stack including Flutter, Dart, and Firebase while supporting both frontend and backend development and coordinating closely with UI/UX teammates to integrate features smoothly for optimal user experience.</li>
+                <li>Delivered the project on time and presented it successfully, ensuring a functional and user-friendly mobile fitness application that received excellent feedback from the professor who requested only minor revisions, showcasing strong collaboration skills and technical execution capabilities.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-name"><em><strong>Full Stack Food Delivery</strong></em> <span class="project-tech"><em>(React JS, MongoDB, Express, NodeJS, Stripe)</em></span></div>
+                <div class="project-year"><strong>2025</strong></div>
+            </div>
+            <ul>
+                <li>Built a full-stack food delivery web application using ReactJS, NodeJS, Express, MongoDB, and Stripe, demonstrating complete end-to-end development capability with secure user authentication systems, efficient database-driven order management, and seamless payment processing integration.</li>
+                <li>Completed the entire project independently as a professional work sample, ensuring a fully functional and scalable system while showcasing strong problem-solving skills, technical adaptability, and comprehensive full-stack proficiency across multiple modern web development technologies.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-name"><em><strong>Online Campus Bookstore Website</strong></em> <span class="project-tech"><em>(HTML, CSS, JavaScript)</em></span></div>
+                <div class="project-year"><strong>2025</strong></div>
+            </div>
+            <ul>
+                <li>Led a collaborative team in designing and developing a frontend-only online campus bookstore using HTML, CSS, and JavaScript, specifically tailored to reflect the school's unique branding and services with core features including detailed product listings and campus-themed interface elements.</li>
+                <li>Implemented sophisticated data handling with local storage functionality to simulate realistic cart and inventory functions, successfully delivering the complete project within strict time limits while demonstrating exceptional ability to plan, coordinate team efforts, and execute complex tasks under pressure.</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-name"><em><strong>Full Stack AI Saas Web</strong></em> <span class="project-tech"><em>(PostgresDB, Express, React, NodeJS)</em></span></div>
+                <div class="project-year"><strong>2025</strong></div>
+            </div>
+            <ul>
+                <li>Developed a full-stack AI SaaS web application using React, NodeJS, Express, and PostgreSQL, integrating advanced APIs for text and image generation and editing capabilities with backend-focused features including secure user authentication and flexible payment configuration systems.</li>
+                <li>Deployed the complete application via Vercel platform, showcasing the ability to build, integrate, and successfully launch AI-powered solutions independently while implementing secure API handling protocols to deliver a fully scalable and professional SaaS platform for end users.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>CERTIFICATES</h2>
+        <div class="certificate-item">
+            <div class="certificate-name">Introduction to Frontend Development by Simplilearn</div>
+            <div class="certificate-year"><strong>2025</strong></div>
+        </div>
+    </div>
+</body>
+</html>
